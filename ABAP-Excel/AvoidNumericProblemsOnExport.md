@@ -28,8 +28,8 @@ chars to avoid dumping with data structures and then we can concatenate these te
       APPEND VALUE #(
       pernr = p0000-pernr
       ename = p0001-ename
-      icnum = lv_icnum
-*      ictyp = p0185-ictyp
+      icnum = lv_icnum    
+      "ictyp = p0185-ictyp
       betrg = v_zamnt
        ) TO gt_output.
 
